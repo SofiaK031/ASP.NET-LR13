@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Login/Register";
+}
+
+<link rel="stylesheet" href="/css/loginRegisterStyles.css">
+
+<div class="my-container" style="height: fit-content; background-color: white;">
+    <div class="text-center">
+        <h2>Login/Register</h2>
+        <form class="log-reg-form" method="post" action="/Home/LoginRegister">
+            <div class="form-group" style="align-items: center">
+                <label for="username" style="margin: 0px 5px 0px 0px">Username:</label>
+                <input type="text" id="username" name="username" style="margin: 0px" />
+            </div>
+            <div class="form-group" style="align-items: center">
+                <label for="email" style="margin: 0px 5px 0px 0px">Email:</label>
+                <input type="email" id="email" name="email" style="margin: 0px" required />
+            </div>
+            <div class="form-group" style="align-items: center">
+                <label for="password" style="margin: 0px 5px 0px 0px">Password:</label>
+                <input type="password" id="password" name="password" style="margin: 0px" />
+            </div>
+            <div class="form-group" style="align-items: center; justify-content: space-evenly;">
+                <input type="submit" value="Login" name="action" />
+                <input type="submit" value="Register" name="action" />
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+﻿.my-container1 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    vertical-align: central;
+}
+
+.text-center {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.my-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.my-form label {
+    font-size: 16px;
+    color: #333;
+}
+
+.my-form input[type="text"],
+.my-form input[type="number"],
+.my-form input[type="submit"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.my-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.my-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.my-h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}

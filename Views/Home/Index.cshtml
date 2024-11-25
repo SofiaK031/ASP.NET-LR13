@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="/css/indexStyles.css">
+
+<div class="my-container1"
+    <div class="text-center">
+        <form class="my-form">
+            <div class="numbers" style="align-items: center;">
+                <label style="margin: 0px 5px 0px 0px;">a:</label>
+                <input name="a" style="border-radius: 5px;" />
+                <br/>
+                <span class="operator" style="margin: 5px 10px; font-size: 18px;">*</span>
+                <br/>
+                <label style="margin: 0px 5px 0px 0px;">b:</label>
+                <input name="b" style="border-radius: 5px;" />
+            </div>
+            <input type="submit" value="Count" style="font-size: 14px; font-weight: bold;"/>
+        </form>
+        <h3 class="my-h3">Result = @ViewData["Result"]</h3>
+    </div>
+</div>
